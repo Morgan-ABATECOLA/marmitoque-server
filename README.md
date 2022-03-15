@@ -15,7 +15,7 @@ Recipes
 GET     /recipes/id            Retourne la recette possédant l'id en fin d'url  
 GET     /recipes               Retourne toutes les recettes  
 POST    /recipes               Créer une recette. Besoin d'un JSON object avec name, description et creator_id (étant un ID valide de cook (User))  
-PUT     /recipes/id            Met à jour une recette. Besoin d'un JSON object avec name, description et creator_id. L'id de l'URL étant une recette déjà    existante  
+PUT     /recipes/id            Met à jour une recette. Besoin d'un JSON object avec name, description et creator_id. L'id de l'URL étant une recette déjà  existante  
 DELETE  /recipes/id            Supprime une recette. L'id de l' est un recette déjà existante  
 GET     /recipes/of/user       Affiche toutes les recettes créées par un utilisateur. L'id de l'User connecté est passé en paramètre dans l'appelle.  
   
